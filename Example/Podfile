@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YMMPopTip_Example' do
+  pod 'YMMPopTip', :path => '../'
+
+  target 'YMMPopTip_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

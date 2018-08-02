@@ -1,0 +1,6 @@
+framework module YMMPopTip {
+  umbrella header "YMMPopTip-umbrella.h"
+
+  export *
+  module * { export * }
+}
